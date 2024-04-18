@@ -16,7 +16,7 @@ function CartOverview() {
       <div className=" flex items-center justify-between border-stone-200 border-stone-200 bg-indigo-500 bg-indigo-500 p-4 px-4 py-4 uppercase text-stone-200  md:bg-stone-800">
         <p className="space-x-4 font-semibold text-stone-300 sm:space-x-6">
           <span>{totalCartQuantity} pizzas</span>
-          <span>${formatCurrency(totalCartPrice)}</span>
+          <span>{formatCurrency(totalCartPrice)}</span>
         </p>
 
         <Link to="/cart">Open cart &rarr;</Link>
