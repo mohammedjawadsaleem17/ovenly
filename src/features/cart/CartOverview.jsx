@@ -21,7 +21,7 @@ function CartOverview() {
 
         <Link to="/cart">Open cart &rarr;</Link>
       </div>
-      <p className="flex items-center justify-center border-stone-200 bg-center pb-2 text-slate-200 md:bg-stone-800">
+      <p className="flex items-center justify-center border-stone-200 bg-center pb-1 text-sm text-slate-200 md:bg-stone-800">
         Beautifully Designed & Developed by &#160;
         <a
           href="https://mohammedjawadsaleem11.github.io/portfolio"
